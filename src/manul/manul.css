@@ -1,0 +1,10 @@
+.city {
+  padding: .125rem .25rem;
+  font-size: .14rem;
+  color: cornflowerblue;
+}
+
+input[type="text"] {
+  border: 1px solid cornflowerblue;
+  margin: 0 .1rem;
+}

@@ -9,7 +9,7 @@ export default class Home extends Component {
         <li><NavLink to="/todolist">TodoList</NavLink></li>
         <li><NavLink to="/box">Box</NavLink></li>
         <li><Link to="/box">Box</Link></li>
-        <li><Link to="/todolist">TodoList</Link></li>
+        <li><Link to="/parent">Parent</Link></li>
       </>
     )
   }
