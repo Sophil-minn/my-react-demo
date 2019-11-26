@@ -7,6 +7,7 @@
     justify-content: center;
 }
 .item {
+	position: relative;
     width: 100%;
     text-align: center;
     flex-grow: 1;
@@ -17,4 +18,10 @@
     width: 100%;
     text-align: center;
     flex-grow: 0;
+}
+.middle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }

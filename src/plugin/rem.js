@@ -3,8 +3,7 @@ console.log(devConfig, 'devConfig');
 
 (function (doc, win) {
   function setHtmlFontSize() {
-    let w_height = doc.documentElement.clientHeight,
-      w_width = window.innerWidth || doc.body.clientWidth || doc.documentElement.clientWidth
+    let w_width = window.innerWidth || doc.body.clientWidth || doc.documentElement.clientWidth
     if (w_width > 768) {
       w_width = 768
       doc.documentElement.style.width = '768px'

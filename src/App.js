@@ -1,11 +1,11 @@
 import React from 'react';
-import Box from './flex/Box';
+// import Box from './flex/Box';
+// import TodoList from './todolist/TodoList';
+import Router from './router/index'
 
 function App() {
   return (
-    <div className="App">
-      <Box></Box>
-    </div>
+    <Router />
   );
 }
 
